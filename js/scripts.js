@@ -132,44 +132,6 @@ $(document).ready(function() {
         $(this).toggleClass('toggle-widget-handle');
     });
 
-    // Twitter Feed
-
-    $('.tweets-feed').each(function(index) {
-        $(this).attr('id', 'tweets-' + index);
-    }).each(function(index) {
-
-        function handleTweets(tweets) {
-            var x = tweets.length;
-            var n = 0;
-            var element = document.getElementById('tweets-' + index);
-            var html = '<ul class="slides">';
-            while (n < x) {
-                html += '<li>' + tweets[n] + '</li>';
-                n++;
-            }
-            html += '</ul>';
-            element.innerHTML = html;
-            return html;
-        }
-
-        twitterFetcher.fetch($('#tweets-' + index).attr('data-widget-id'), '', 5, true, true, true, '', false, handleTweets);
-
-    });
-
-    // Instagram Feed
-
-    jQuery.fn.spectragram.accessData = {
-        accessToken: '1406933036.fedaafa.feec3d50f5194ce5b705a1f11a107e0b',
-        clientID: 'fedaafacf224447e8aef74872d3820a1'
-    };
-
-    $('.instafeed').each(function() {
-        $(this).children('ul').spectragram('getUserFeed', {
-            query: $(this).attr('data-user-name'),
-            max: 12
-        });
-    });
-
     // Image Sliders
 
     $('.slider-all-controls').flexslider({});
