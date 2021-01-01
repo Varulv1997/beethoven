@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Varulv1997/beethoven.github.io
+  repo: Varulv1997/beethoven
   branch: master
   site_domain: khouribga.netlify.com
 
