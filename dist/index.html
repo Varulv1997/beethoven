@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>École Beethoven Khouribga</title>
+<!--Designed & developed by Anas Gamrani on 09/10/2020 as a voluntary project. All rights reserved.
+  /           ___ ___       '.
+     |\ .-------|:::/:::|--------;
+     | |        |:::|:::|        |
+     |\|_  ___ _|:::/:::| __ ____|
+     |    __  ___""" """_ ____ __`\
+     | |\##\\###\\##\\###\\##\\### \
+     \ \ \\\\\\\\\\\\\\\\\\\\\\\\\\ \
+     |\ \||||||||||||||||||||||||||_|
+     | | ;"""""""""""""""""""""""";"|
+     | | |"""""".----------.""""""| |
+     | | |     |\           \  |  | |
+     | | |-----|\\___________\-|  | |
+ jgs | | |     | |---------- |  \ | |
+     `\| |     | |         | |   `| |
+       \_|       |           |    `\|
+
+        ,
+        |\        __
+        | |      |--|             __
+        |/       |  |            |~'
+       /|_      () ()            |
+      //| \             |\      ()
+     | \|_ |            | \
+  jgs \_|_/            ()  |
+        |                  |
+       @'                 ()
+-->
+        <meta name="viewport" content="width=device-width, initial-scale=0.9">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIcBR5yRR8CRXqYSXFbqpPHF2poG4NCJU" defer></script>
+		<script src="js/print.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/print.min.css">
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" defer>
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(70353667, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/70353667" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+		<link rel="icon" type="image/png" href="img/favicon.png"/>
+    </head>
+    <body>
+        <div class="nav-container">
+            <a id="top"></a>
+            <nav class="pb16 pb-xs-0">
+                <div class="nav-utility bg-primary">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4  text-center-xs">
+                                <span class="sub">العنوان: رقم 12, شارع مولاي عبد الله</span>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <ul class="list-inline social-list">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-whatsapp" style="color:#42afaf"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook" style="color:#fafafa"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-youtube" style="color:#f13464"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 text-right text-center-xs">
+                                <span class="sub">مفتوح يوميا من الساعة 7 صباحا الى 9 مساء</span>
+                                <span class="sub">(212)695987016 - (212)650878758</span>
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                    <!--end of container-->
+                </div>
+                <div class="pt120 pb80 pt-xs-40 pb-xs-16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <a href="index.html">
+                                    <img alt="Logo" class="logo" src="img/logo-dark.png" />
+                                </a>
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                    <!--end of container-->
+                </div>
+                <div class="module widget-handle mobile-toggle text-center visible-xs">
+                    <i class="fas fa-bars" style="font-size: 38px;color: #2e2335 !important;"></i>
+                </div>
+                <div class="nav-bar text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <ul class="menu inline-block mb-xs-16">
+                                    <li class="top-link hidden-xs">
+                                        <a href="#top" class="inner-link">
+                                           <i class="fas fa-long-arrow-alt-up"></i> اعلى الصفحة</a>
+                                    </li>
+                                    <li>
+                                        <a href="#about" class="inner-link">من نحن</a>
+                                    </li>
+									<li>
+                                        <a href="#prices" class="inner-link">الاثمنة</a>
+                                    </li>
+                                    <li>
+                                        <a href="#time" class="inner-link">جدول المواقيت</a>
+                                    </li>
+                                    <li>
+                                        <a href="#administration" class="inner-link">الادارة</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact" class="inner-link">تواصل معنا</a>
+                                    </li>
+                                    <li>
+                                        <div class="divider hidden-xs"></div>
+                                    </li>
+									<li class="has-dropdown">
+                                        <a href="#">التسجيل</a>
+                                        <ul class="text-left">
+                                            <li>
+                                                <a href="#" onclick="printJS('pdf/children.pdf')">الاطفال</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" onclick="printJS('pdf/adults.pdf')">البالغين</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="fr.html">Français <img src="img/france.png" style="margin-left:5px;width: 35px;border-radius: 2px;"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                    <!--end of container-->
+                </div>
+            </nav>
+        </div>
+        <div class="main-container">
+            <section class="pb0 pt0">
+                <div class="container" style="width: 100%;padding-left: 0px;padding-right: 0px;">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <div class="image-slider slider-arrow-controls mb0">
+                                <ul class="slides">
+                                    <li>
+                                        <img alt="Image" src="img/home1.jpg" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <a id="about"></a>
+            <section class="pb0">
+                <div class="container">
+                    <div class="row  mb64 mb-xs-40">
+                        <div class="col-sm-12 text-center">
+                            <div class="ribbon1" style="background: #da0037;">
+                                <h6 class="uppercase mb0">من نحن</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row mb64 mb-xs-40">
+                        <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row mb64 mb-xs-24">
+                        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-center">
+                            <p class="alt-font mb8">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+                            </p>
+                            <span class="sub">Lorem Ipsum</span>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-center">
+                            <p class="alt-font mb8">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+                            </p>
+                            <span class="sub">Lorem Ipsum</span>
+                        </div>
+                    </div>
+					  <a id="prices"></a>
+					 <div class="row  mb64 mb-xs-40" style="margin-top:50px;">
+                        <div class="col-sm-12 text-center">
+                            <div class="ribbon2" style="background: #c60032;">
+                                <h6 class="uppercase mb0">الاثمنة</h6>
+                            </div>
+                        </div>
+                    </div>
+<div class="plans" style="margin-top:50px;">
+  <div class="plan-box">
+    <div class="plan-options">
+      <p class="plan-name">
+        اطفال
+      </p>
+      <div class="plan-price">
+        <strong style="margin-right:15px">100 درهم</strong> /شهريا
+      </div>
+   <ul class="plan-details">
+         <li><strong>1</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>2</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>3</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>4</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>5</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>6</strong> Lorem ipsum dolor sit amet</li>
+      </ul>
+          </div>
+  </div>
+  
+  <div class="plan-box" style="border: 1px solid #2a2731 !important;">
+    <div class="plan-options">
+      <p class="plan-name">
+        بالغين
+      </p>
+      <div class="plan-price">
+        <strong style="margin-right:15px">200 درهم</strong> /شهريا
+      </div>
+       <ul class="plan-details">
+         <li><strong>1</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>2</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>3</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>4</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>5</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>6</strong> Lorem ipsum dolor sit amet</li>
+      </ul>
+       </div>
+  </div>
+  
+  <div class="plan-box">
+    <div class="plan-options">
+      <p class="plan-name">
+        اخر
+      </p>
+      <div class="plan-price">
+        <strong style="margin-right:15px">300 درهم</strong> /شهريا
+      </div>
+   <ul class="plan-details">
+         <li><strong>1</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>2</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>3</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>4</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>5</strong> Lorem ipsum dolor sit amet</li>
+         <li><strong>6</strong> Lorem ipsum dolor sit amet</li>
+      </ul>
+          </div>
+  </div>
+</div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="pb0">
+                <div class="container">
+                    <div class="row image-row">
+                        <div class="col-sm-4">
+                            <div class="background-image-holder">
+                                <img alt="Background Image" src="img/body1.jpg" />
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="background-image-holder">
+                                <img alt="Background Image" src="img/body2-ar.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+						<div class="row" style="margin-top:35px">
+<div class="gallery">
+  <a>
+    <img src="img/1.jpg" width="600" height="400">
+  </a>
+  <div class="desc">بيانو</div>
+</div>
+
+<div class="gallery">
+  <a>
+    <img src="img/2.jpg" width="600" height="400">
+  </a>
+  <div class="desc">كمان</div>
+</div>
+
+<div class="gallery">
+  <a>
+    <img src="img/3.jpg" width="600" height="400">
+  </a>
+  <div class="desc">عود</div>
+</div>
+
+<div class="gallery">
+  <a>
+    <img src="img/4.jpg" width="600" height="400">
+  </a>
+  <div class="desc">قيثار كلاسيكي</div>
+</div>
+
+<div class="gallery">
+  <a>
+    <img src="img/5.jpg" width="600" height="400">
+  </a>
+  <div class="desc">قيثار كهربائي</div>
+</div>
+
+<div class="gallery">
+  <a>
+    <img src="img/6.jpg" width="600" height="400">
+  </a>
+  <div class="desc">سينثيسايزر</div>
+</div>
+
+<div class="gallery">
+  <a>
+    <img src="img/7.jpg" width="600" height="400">
+  </a>
+  <div class="desc">ورشة غناء</div>
+</div>
+
+<div class="gallery">
+  <a>
+    <img src="img/8.jpg" width="600" height="400">
+  </a>
+  <div class="desc">مسرح</div>
+</div>
+
+<div class="gallery">
+  <a>
+    <img src="img/9.jpg" width="600" height="400">
+  </a>
+  <div class="desc">الفنون البلاستيكية</div>
+</div>
+</div>
+                </div>
+                <!--end of container-->
+            </section>
+            <a id="time"></a>
+            <section class="pb0">
+                <div class="container">
+                    <div class="row  mb64 mb-xs-40">
+                        <div class="col-sm-12 text-center">
+                            <div class="ribbon3" style="background: #462d41;">
+                                <h6 class="uppercase mb0">جدول المواقيت</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 col-sm-12">
+                            <div class="tabbed-content text-tabs">
+                                <ul class="tabs mb64 mb-xs-24">
+                                    <li class="active">
+                                        <div class="tab-title">
+                                            <span>الاثنين</span>
+                                        </div>
+                                        <div class="tab-content">
+                                            <div class="col-sm-6 p0">
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">12</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">14</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">17</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                        <br class="hidden-xs" /> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">19</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 p0">
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                        <br class="hidden-xs" />At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">14</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                        <br class="hidden-xs" />At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">16</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">21</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tab-title">
+                                            <span>الثلاثاء</span>
+                                        </div>
+                                        <div class="tab-content">
+                                            <div class="col-sm-6 p0">
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                        <br class="hidden-xs" /> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">19</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                        <br class="hidden-xs" /> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">20</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">21</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">24</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 p0">
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">16.5</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">18</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tab-title">
+                                            <span>الاربعاء</span>
+                                        </div>
+                                        <div class="tab-content">
+                                            <div class="col-sm-6 p0">
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">3.5</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">5.5 / pot</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">4.5</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">4.5</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">7</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+									<li>
+                                        <div class="tab-title">
+                                            <span>الخميس</span>
+                                        </div>
+                                        <div class="tab-content">
+                                            <div class="col-sm-6 p0">
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                        <br class="hidden-xs" /> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">19</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                        <br class="hidden-xs" /> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">20</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">21</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">24</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 p0">
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">16.5</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">18</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+									<li>
+                                        <div class="tab-title">
+                                            <span>الجمعة</span>
+                                        </div>
+                                        <div class="tab-content">
+                                            <div class="col-sm-6 p0">
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                        <br class="hidden-xs" /> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">19</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                        <br class="hidden-xs" /> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">20</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">21</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">24</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 p0">
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">16.5</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">18</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+									<li>
+                                        <div class="tab-title">
+                                            <span>السبت</span>
+                                        </div>
+                                        <div class="tab-content">
+                                            <div class="col-sm-6 p0">
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                        <br class="hidden-xs" /> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">19</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                        <br class="hidden-xs" /> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">20</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">21</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">24</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 p0">
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">16.5</span>
+                                                </div>
+                                                <div class="mb40 mb-xs-24 ">
+                                                    <span class="bold block">Lorem ipsum dolor sit amet</span>
+                                                    <p class="mb0">
+                                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                                                    </p>
+                                                    <span class="block">18</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--end of text tabs-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <a id="administration"></a>
+            <section class="pb0">
+                <div class="container">
+                    <div class="row  mb64 mb-xs-40">
+                        <div class="col-sm-12 text-center">
+                            <div class="ribbon4" style="background: #2b2d42;">
+                                <h6 class="uppercase mb0">الادارة</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row mb32 mb-xs-24">
+                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                            <img alt="Image" src="img/home2.jpg" />
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-md-7 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                            <h2 class="alt-font">Minim veniam
+                                <br /> Lorem Ipsum
+                                <br />Lipsumaiten</h2>
+                            <p class="mb0">
+                               Sed ut perspiciatis unde omnis iste natus error sit
+                                <br class="hidden-sm hidden-xs" /> Voluptatem accusantium doloremque laudantium
+                                <br class="hidden-sm hidden-xs" /> Totam rem aperiam, eaque
+                            </p>
+                            <span class="block">18</span>
+                        </div>
+                    </div>
+                </div>
+                <!--end of container-->
+            </section>
+            <a id="contact"></a>
+            <section style="padding: 0px 0px;">
+                <div class="container" style="width: 100%;">
+                    <div class="row  mb64 mb-xs-40">
+                        <div class="col-sm-12 text-center">
+                            <div class="ribbon">
+                                <h6 class="uppercase mb0">تواصل معنا</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="map-holder pt120 pb120">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.6176040153714!2d-6.916114184815304!3d32.88183558094044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda427fbdc4f38cb%3A0xe509b10c4f499dd0!2sRue%20Moulay%20Abdellah%2C%20Khouribga!5e0!3m2!1sen!2sma!4v1607601338618!5m2!1sen!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 contact-details">
+                                    <div class="pt80 pb56 bg-white p32 overflow-hidden">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <p>
+                                                <strong>مفتوح يوميا من 7 صباحا الى 9 مساء</strong>
+                                                <br /> الادارة: هشام فراحي
+                                            </p>
+                                            <p>
+                                                العنوان: رقم 12, شارع مولاي عبد الله
+                                            </p>
+                                            <p>
+                                                الهاتف (212)695987016 - (212)650878758
+                                                <br /> ecolebeethovenkhouribga@gmail.com
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="align-bottom text-center">
+                                    <a href="https://www.google.com/maps/place/Rue+Moulay+Abdellah,+Khouribga/@32.8818356,-6.9161142,17z/data=!3m1!4b1!4m5!3m4!1s0xda427fbdc4f38cb:0xe509b10c4f499dd0!8m2!3d32.8818356!4d-6.9139255" target="_blank" class="btn toggle-map">الخريطة</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <footer class="bg-primary pt120 pb120 pt-xs-40 pb-xs-64" style="padding-bottom: 26px;background: url(img/footer.jpg) !important;background-position-y:226px !important;background-size: cover !important">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 mb-xs-24 text-center-xs">
+                            <div class="inline-block center">
+                                <img alt="Logo" class="image-small display-block center mb-xs-24" src="img/footer-logo.png" style="width: 47px;"/>
+                            </div>
+                            <div class="inline-block display-block-xs text-center-xs">
+                                <h6 class="mb16" style="font-size:15px">École Beethoven Khouribga</h6>
+                                <span class="sub display-block">العنوان: رقم 12, شارع مولاي عبد الله</span>
+                                <span class="sub display-block">مفتوح يوميا من 7 صباحا الى 9 مساء</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2 text-center">
+                            <h6 class="uppercase">تابعنا على مواقع التواصل الاجتماعي</h6>
+                            <ul class="list-inline social-list">
+                                  <li>
+                                        <a href="#">
+                                            <i class="fab fa-whatsapp" style="font-size: 33px;color:#42afaf"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook" style="font-size: 33px;color:#fafafa"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-youtube" style="font-size: 33px;color:#f13464"></i>
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </footer>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/parallax.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
